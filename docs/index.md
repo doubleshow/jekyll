@@ -1,52 +1,17 @@
 ---
 layout: docs
 title: Welcome
-next_section: quickstart
+next_section: usage
 permalink: /docs/home/
 ---
 
-This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such
-as getting your site up and running, creating and managing your content,
-customizing the way your site works and looks, deploying to various
-environments, and give you some advice on participating in the future
-development of Jekyll itself.
+This site aims to be a comprehensive guide to Sikuli Slides. It covers topics such as installation, creating and executing slides, and using Sikuli Slides' API in your own programs.
 
-## So what is Jekyll, exactly?
+## What is Sikuli Slides?
 
-Jekyll is a simple, blog-aware, static site generator. It takes a template
-directory containing raw text files in various formats, runs it through
-[Markdown](http://daringfireball.net/projects/markdown/) (or
-[Textile](http://textile.sitemonks.com/)) and
-[Liquid](http://wiki.shopify.com/Liquid)
-converters, and spits out a complete, ready-to-publish static website suitable
-for serving with your favorite web server. Jekyll also happens to be the engine
-behind [GitHub Pages](http://pages.github.com), which means you can use Jekyll
-to host your project’s page, blog, or website from GitHub’s servers **for
-free**.
+Sikuli Slides turn presentation slides into executable programs for automating graphical user interfaces (GUI). A typical Sikuli Slide contains <b>a screenshot</b> and <b>a set of annotations</b>. The screenshot can be of any part of a user interface, such as a button, a group of buttons, a form, a dialog box, a window, or the entire desktop. The annotations are boxes to indicate targets and text boxes to indicate actions to be performed on the targets.
 
-## ProTips™, Notes, and Warnings
+## Who can benefit?
 
-Throughout this guide there are a number of small-but-handy pieces of
-information that can make using Jekyll easier, more interesting, and less
-hazardous. Here’s what to look out for.
+If you are a <b>QA engineer</b>, you may be already creating slides with a series of screenshots to describe a test plan. Now the same slides can be executed directly on a live interface. If you work as a <b>tech support</b>, you may be already creating slides with a series of screenshots as how-to tutorials for the users in your organization. Now the same slides can be executed directly on users' live interfaces.
 
-<div class="note">
-  <h5>ProTips™ help you get more from Jekyll</h5>
-  <p>These are tips and tricks that will help you be a Jekyll wizard!</p>
-</div>
-
-<div class="note info">
-  <h5>Notes are handy pieces of information</h5>
-  <p>These are for the extra tidbits sometimes necessary to understand
-     Jekyll.</p>
-</div>
-
-<div class="note warning">
-  <h5>Warnings help you not blow things up</h5>
-  <p>Be aware of these messages if you wish to avoid certain death.</p>
-</div>
-
-If you come across anything along the way that we haven’t covered, or if you
-know of a tip you think others would find handy, please [file an
-issue](https://github.com/mojombo/jekyll/issues/new) and we’ll see about
-including it in this guide.

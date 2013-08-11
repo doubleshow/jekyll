@@ -7,30 +7,33 @@ overview: true
 <section class="intro">
   <div class="grid">
     <div class="unit whole center-on-mobiles">
-      <p class="first">Transform your plain text into static&nbsp;websites and&nbsp;blogs.</p>
+      <p class="first">Execute Your Slides</p>
+	  <img src="/img/concept.png" class="two-thirds" style="float:right">
     </div>
   </div>
 </section>
 <section class="features">
   <div class="grid">
     <div class="unit one-third">
-      <h2>Simple</h2>
+      <h2>What?</h2>
       <p>
-        No more databases, comment moderation, or pesky updates to install—just <em>your content</em>.
+        Sikuli Slides turn presentation slides into executable programs for automating graphical user interfaces (GUI).
       </p>
-      <a href="/docs/usage" class="">How Jekyll works &rarr;</a>
+      <a href="/docs/usage" class="">Slides Examples</a>
     </div>
     <div class="unit one-third">
-      <h2>Static</h2>
-      <p><a href="http://daringfireball.net/projects/markdown/">Markdown</a> (or <a href="http://textile.sitemonks.com/">Textile</a>), <a href="http://wiki.shopify.com/Liquid">Liquid</a>, HTML <span class="amp">&amp;</span> CSS go in. Static sites come out ready for deployment.</p>
-      <a href="/docs/templates" class="">Jekyll template guide &rarr;</a>
+      <h2>Who?</h2>
+      <p>
+		If you have ever made slides with screenshots, now you can use Sikuli Slides to execute them on a live interface.
+	  </p>
+	 <a href="/docs/templates" class="">Use Scenarios</a>
     </div>
     <div class="unit one-third">
-      <h2>Blog-aware</h2>
+      <h2>How?</h2>
       <p>
-        Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
+        <b>Create</b> slides using PowerPoint or Google Presentation. <b>Execute</b> slides from the command-line, a GUI, or another Java program.
       </p>
-      <a href="/docs/migrations" class="">Migrate your blog &rarr;</a>
+      <a href="/docs/migrations" class="">Creating Slides</a>
     </div>
     <div class="clear"></div>
   </div>
@@ -38,53 +41,28 @@ overview: true
 <section class="quickstart">
   <div class="grid">
     <div class="unit golden-small center-on-mobiles">
-      <h4>Get up and running <em>in&nbsp;seconds</em>.</h4>
+      <h2>Get started now!</h2>
     </div>
-    <div class="unit golden-large code">
+    <div class="unit golden-large code" style="font-size:14px">
       <p class="title">Quick-start Instructions</p>
       <div class="shell">
         <p class="line">
           <span class="path">~</span>
           <span class="prompt">$</span>
-          <span class="command">gem install jekyll</span>
+          <span class="command">wget http://slides.sikuli.org/sikuli-slides-1.3.0.jar</span>
         </p>
         <p class="line">
           <span class="path">~</span>
           <span class="prompt">$</span>
-          <span class="command">jekyll new my-awesome-site</span>
+          <span class="command">wget http://slides.sikuli.org/helloworld.pptx</span>
         </p>
         <p class="line">
           <span class="path">~</span>
           <span class="prompt">$</span>
-          <span class="command">cd my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~/my-awesome-site</span>
-          <span class="prompt">$</span>
-          <span class="command">jekyll serve</span>
-        </p>
-        <p class="line">
-          <span class="output"># => Now browse to http://localhost:4000</span>
+          <span class="command">java -jar sikuli-slides-1.3.0.jar helloworld.pptx</span>
         </p>
       </div>
     </div>
     <div class="clear"></div>
-  </div>
-</section>
-<section class="free-hosting">
-  <div class="grid">
-    <div class="unit whole">
-      <div class="grid pane">
-        <div class="unit whole center-on-mobiles">
-          <img src="img/octojekyll.png" alt="Free Jekyll hosting on GitHub Pages">
-          <div class="pane-content">
-            <h2 class="center-on-mobiles"><strong>Free hosting</strong> with GitHub Pages</h2>
-            <p>Sick of dealing with hosting companies? <a href="http://pages.github.com/">GitHub Pages</a> are <em>powered by Jekyll</em>, so you can easily deploy your site using GitHub for free&mdash;<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">custom domain name</a> and&nbsp;all.</p>
-            <a href="http://pages.github.com/" class="">Learn more about GitHub Pages &rarr;</a>
-          </div>
-        </div>
-        <div class="clear"></div>
-      </div>
-    </div>
   </div>
 </section>
