@@ -24,12 +24,12 @@ There are two methods to open the slides and execute them on your own computer.
 2. Open and execute the slides
 
 {% highlight bash %}
-$ java -jar sikuli-slides-1.3.0.jar helloworld.pptx 
+$ {{site.executable}} execute helloworld.pptx 
 {% endhighlight %}
 
 
-**Method 2:** Open and execute from a URL
+**Method 2:** Open and execute from an URL
 
 {% highlight bash %}
-$ java -jar sikuli-slides-1.3.0.jar https://docs.google.com/presentation/d/1w48gExh5oLIT0J8xYXR1RxpqTrZTXJC8OR4UXxShTQ8/edit?usp=sharing
+$ {{site.executable}} execute https://docs.google.com/presentation/d/1w48gExh5oLIT0J8xYXR1RxpqTrZTXJC8OR4UXxShTQ8/edit?usp=sharing
 {% endhighlight %}

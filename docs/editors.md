@@ -6,7 +6,7 @@ next_section: usage
 permalink: /docs/editors/
 ---
 
-Sikuli Slides can understand the slides made by Microsoft Powerpoint and Google Presentation. You can use either tool to make your slides. Make sure you save your slides in the `.pptx` format.
+Sikuli Slides can understand the slides made by Microsoft Powerpoint and Google Presentation. You can use either editing tool to make your slides. Make sure you save your slides in the `.pptx` format. Chances are you are already familiar with these tools. This is one of the  advantages of Sikuli Slides. There is no need to learn a new programming editor or IDE! Just make slides as you did before.
 
 ### Online Editor: Google Presentation 
 
@@ -35,7 +35,7 @@ Sikuli Slides can understand the slides made by Microsoft Powerpoint and Google 
 7. Execute your slides from the command line. Use the "Link to Share" URL as the argument.
 
 {% highlight bash %}
-$ java -jar sikuli-slides-1.3.0.jar https://docs.google.com/presentation/d/1bODdu4SOD49Z_i9Sq7qJpwmxbnnMx6ULvgNc3wQGYfw/edit?usp=sharing
+$ {{site.executable}} execute https://docs.google.com/presentation/d/1bODdu4SOD49Z_i9Sq7qJpwmxbnnMx6ULvgNc3wQGYfw/edit?usp=sharing
 {% endhighlight %}
 
 
@@ -44,7 +44,7 @@ $ java -jar sikuli-slides-1.3.0.jar https://docs.google.com/presentation/d/1bODd
 If you wish to edit the slides offline, you can use Microsoft Powerpoint.
 
 1. Download the helloworld example slides as a .pptx file: [helloworld.pptx](https://docs.google.com/feeds/download/presentations/Export?id=1w48gExh5oLIT0J8xYXR1RxpqTrZTXJC8OR4UXxShTQ8&&exportFormat=pptx)
-2. Open the file in Microsoft PowerPoint. It must be a version that supports the **.pptx** format.
+2. Open the file in Microsoft PowerPoint. It must be a version that supports the `.pptx` format.
 3. On Slide 1, change the URL to your the URL of your own website.
 
    <img class="half img-polaroid" src="/img/powerpoint_slide1.png"/>
@@ -64,7 +64,7 @@ If you wish to edit the slides offline, you can use Microsoft Powerpoint.
 6. Execute your slides from the command line. Use the .pptx file name as the argument.
 
 {% highlight bash %}
-$ java -jar sikuli-slides-1.3.0.jar helloworld.pptx 
+$ {{site.executable}} execute helloworld.pptx 
 {% endhighlight %}
 
 

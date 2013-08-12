@@ -1,4 +1,6 @@
 pygments: true
 relative_permalinks: false
-gauges_id: 503c5af6613f5d0f19000027
+gauges_id: 
 permalink: /news/:year/:month/:day/:title
+executable: java -jar sikuli-slides-1.4.0.jar
+executable_download: http://slides.sikuli.org/sikuli-slides-1.4.0.jar

@@ -1,9 +1,9 @@
 ---
 layout: docs
-title: Overview
+title: API
 prev_section: usage
 next_section: usage
-permalink: /docs/overview/
+permalink: /docs/api/
 ---
 
 Sikuli Slides API allows you to execute Sikuli Slides directly from your own Java programs. 
@@ -42,6 +42,12 @@ Slides.execute(new File("hellouser.pptx"), context);
 
 
 Here is another example that takes a username and a password as parameters to fill in a login form automatically.
+The presentation file is [login.pptx](/pptx/login.pptx). Its content is shown below.
+
+<img src="/img/login_username.jpg" class="half img-polaroid">
+<img src="/img/login_password.jpg" class="half img-polaroid">
+
+The code to execute this file with parameter values is shown below.
 
 {% highlight java %}
 Context context = new Context();
@@ -52,10 +58,6 @@ Slides.execute(new File("login.pptx"), context);
 
 {% endhighlight %}
 
-Below is the content of `login.pptx`. There are two *TYPE* actions. The value to type is specified as a parameter for each action.
-
-<img src="/img/login_username.jpg" class="half img-polaroid">
-<img src="/img/login_password.jpg" class="half img-polaroid">
 
 ## Selecting Certain Slides to Execute
 
