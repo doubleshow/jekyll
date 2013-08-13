@@ -59,30 +59,36 @@ Drag a target and drop it onto another destination target. To define a drag and 
 
 ## Caption		
 
-Display caption text on the screen. To define a caption action, write the caption text in a text box. In the absence of other action words such as click or type, this text box will be interpreted as a caption. You can place multiple captions on the same slide.
+Display caption text on the screen. To define a caption action, write the caption text in a text box. As long as the text does not start with one of the other action words, it will be interpreted as a caption. You can place multiple captions on the same slide.
 
  * **Styling:** You can specify the style of the text box using any font size, color, and background. Sikuli Slides will try to render the caption following the style you've specified as closely as possible.
 
- * **Relative Positioning:** If no screenshot of a GUI is on the slide, the caption is positioned on the screen similar to where it is placed on the slide. For instance, if a caption is placed close to the center of a slide, it will be displayed also close to the center of the screen, like the first example below.
+ * **Relative Positioning:** A caption can be positioned based on its relative location within a slide. For instance, if a caption is placed close to the center of a slide, it will be displayed also close to the center of the screen, like the first example below.
 
-	Slides
+	*Slides*
 	
    <img src="/img/caption_pos_slide1.jpg" class="one-third img-polaroid">
    <img src="/img/caption_pos_slide2.jpg" class="one-third img-polaroid">
    <img src="/img/caption_pos_slide3.jpg" class="one-third img-polaroid">
 
-	Screen during execution
+	*Screen during execution*
 	
    <img src="/img/caption_pos_screen1.jpg" class="one-third img-polaroid">
    <img src="/img/caption_pos_screen2.jpg" class="one-third img-polaroid">
    <img src="/img/caption_pos_screen3.jpg" class="one-third img-polaroid">
 
 
- * **Target Positioning:** If a screenshot of a GUI is on the slide, the caption is positioned in the same relative location to the GUI. For instance (third example below), suppose a caption *HERE* is placed above an OK button on the slide. When the slide is executed, the OK button will first be identified on the screen and the caption will be shown in the same relative position above the OK button.
+ * **Target Positioning:** A caption can be positioned relative to a target. In the first example below, a caption *UN's LOGO* is placed to the right of a logo on the slide. When the slide is executed, the logo will first be identified on the screen and the caption will be shown in the same relative position to the right of the logo. 
 
-   <img src="/img/caption1.jpg" class="one-third img-polaroid">
-   <img src="/img/caption2.jpg" class="one-third img-polaroid">
    <img src="/img/caption3.jpg" class="one-third img-polaroid">
+   <img src="/img/caption2.jpg" class="one-third img-polaroid">
+   <img src="/img/caption1.jpg" class="one-third img-polaroid">
+
+   Sikuli Slides determines whether a caption is associated with a target based on proximity. If a caption is not near any target on a slide, it will be positioned based on its relative location within the slide. In the example below, the caption *WIKI's LOGO* is positioned based on the image of WIKI's logo as a target. On the other hand, the caption *Hello World* is not near a target. It is positioned close to the bottom of the screen.
+
+   <img src="/img/caption_pos_mixed1.jpg" class="half img-polaroid">
+   <img src="/img/caption_pos_mixed2.jpg" class="half img-polaroid">
+
 
 ---
 
