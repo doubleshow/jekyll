@@ -1,8 +1,7 @@
 ---
 layout: docs
 title: API
-prev_section: usage
-next_section: usage
+prev_section: gui
 permalink: /docs/api/
 ---
 

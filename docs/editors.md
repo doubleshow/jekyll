@@ -2,11 +2,11 @@
 layout: docs
 title: Editors
 prev_section: usage
-next_section: usage
+next_section: actions
 permalink: /docs/editors/
 ---
 
-Sikuli Slides can understand the slides made by Microsoft Powerpoint and Google Presentation. You can use either editing tool to make your slides. Make sure you save your slides in the `.pptx` format. Chances are you are already familiar with these tools. This is one of the  advantages of Sikuli Slides. There is no need to learn a new programming editor or IDE! Just make slides as you did before.
+Sikuli Slides can understand slides made by Microsoft Powerpoint or Google Presentation. You can use either editing tool to make your slides.  Chances are you are already familiar with these tools. This is one of the  advantages of Sikuli Slides. There is no need to learn a new programming editor or IDE! Just make slides as you did before. Just make sure you save your slides in the `.pptx` format.
 
 ### Online Editor: Google Presentation 
 

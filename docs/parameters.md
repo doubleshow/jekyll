@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Parameters
-prev_section: usage
-next_section: usage
+prev_section: actions
+next_section: recorder
 permalink: /docs/parameters/
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Recorder
-prev_section: usage
-next_section: usage
+prev_section: parameters
+next_section: cmd
 permalink: /docs/recorder/
 ---
 

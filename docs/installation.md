@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Installation
-prev_section: usage
+prev_section: index
 next_section: usage
 permalink: /docs/installation/
 ---

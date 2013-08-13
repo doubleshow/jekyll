@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Actions
-prev_section: usage
-next_section: usage
+prev_section: editors
+next_section: parameters
 permalink: /docs/actions/
 ---
 

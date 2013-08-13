@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Basic Usage
-prev_section: usage
-next_section: usage
+prev_section: installation
+next_section: editors
 permalink: /docs/usage/
 ---
 

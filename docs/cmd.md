@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Command Line
-prev_section: usage
-next_section: usage
+prev_section: recorder
+next_section: gui
 permalink: /docs/cmd/
 ---
 
