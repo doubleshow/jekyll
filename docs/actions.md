@@ -59,15 +59,40 @@ Drag a target and drop it onto another destination target. To define a drag and 
 
 ## Caption		
 
-Display caption text on the screen. To define a caption action, write the caption text in a text box. In the absence of other action words such as click or type, this text box will be interpreted as a caption. 
+Display caption text on the screen. To define a caption action, write the caption text in a text box. In the absence of other action words such as click or type, this text box will be interpreted as a caption. You can place multiple captions on the same slide.
 
- * **Styling** You can specify the style of the text box using any font size, color, and background. Sikuli Slides will try to render the caption following the style you've specified as closely as possible.
+ * **Styling:** You can specify the style of the text box using any font size, color, and background. Sikuli Slides will try to render the caption following the style you've specified as closely as possible.
 
- * **Positioning** If no screenshot of a GUI is on the slide (first example below), the caption is positioned in the center of the screen. If a screenshot of a GUI is on the slide, the caption is positioned in the same relative location to the GUI. For instance (third example below), suppose a caption *HERE* is placed above an OK button on the slide. When the slide is executed, the OK button will first be identified on the screen and the caption will be shown in the same relative position above the OK button.
+ * **Relative Positioning:** If no screenshot of a GUI is on the slide, the caption is positioned on the screen similar to where it is placed on the slide. For instance, if a caption is placed close to the center of a slide, it will be displayed also close to the center of the screen, like the first example below.
 
-<img src="/img/caption1.jpg" class="one-third img-polaroid">
-<img src="/img/caption2.jpg" class="one-third img-polaroid">
-<img src="/img/caption3.jpg" class="one-third img-polaroid">
+	Slides
+	
+   <img src="/img/caption_pos_slide1.jpg" class="one-third img-polaroid">
+   <img src="/img/caption_pos_slide2.jpg" class="one-third img-polaroid">
+   <img src="/img/caption_pos_slide3.jpg" class="one-third img-polaroid">
+
+	Screen during execution
+	
+   <img src="/img/caption_pos_screen1.jpg" class="one-third img-polaroid">
+   <img src="/img/caption_pos_screen2.jpg" class="one-third img-polaroid">
+   <img src="/img/caption_pos_screen3.jpg" class="one-third img-polaroid">
+
+
+ * **Target Positioning:** If a screenshot of a GUI is on the slide, the caption is positioned in the same relative location to the GUI. For instance (third example below), suppose a caption *HERE* is placed above an OK button on the slide. When the slide is executed, the OK button will first be identified on the screen and the caption will be shown in the same relative position above the OK button.
+
+   <img src="/img/caption1.jpg" class="one-third img-polaroid">
+   <img src="/img/caption2.jpg" class="one-third img-polaroid">
+   <img src="/img/caption3.jpg" class="one-third img-polaroid">
+
+---
+
+## Wait		
+
+Wait for a target to appear before proceeding to the next slide. To define a caption action, write the word `Wait` in a text box, insert a screenshot, and draw a rectangle around a target. By default, it waits for 10 seconds for the target to appear. The wait time can be specified by writing the amount of time following the action word in the same text box. Alternatively, the wait time can be written in another text box.
+
+<img src="/img/wait1.jpg" class="one-third img-polaroid">
+<img src="/img/wait2.jpg" class="one-third img-polaroid">
+<img src="/img/wait3.jpg" class="one-third img-polaroid">
 
 ---
 

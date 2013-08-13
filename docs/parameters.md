@@ -6,7 +6,7 @@ next_section: usage
 permalink: /docs/parameters/
 ---
 
-Text-related actions such as `type`, `caption`, and `browser` need an extra string to specify what text to type, what message to display, or which URL to open. Sikuli Slides allows you to parameterize the value of this string. To turn a value into a parameter, simply choose a meaningful name for the parameter, say `user`, and write it in the slide as `<user>`. The enclosed `<` and `>` are special markers to indicate that whatever in-between is a parameter. A parameter is like a place holder. Its value will be specified later at the execution time.
+Text-related actions such as `type`, `caption`, and `browser` need an extra string to specify what text to type, what message to display, or which URL to open. Sikuli Slides allows you to parameterize the value of this string. To turn a value into a parameter, simply choose a meaningful name for the parameter, say `user`, and write it in the slide as `<user>`. The enclosing `<` and `>` are special markers to indicate that whatever in-between is a parameter. A parameter is like a place holder. Its value will be specified later at the execution time.
 	
 Here are examples of two slides for displaying a greeting message. 
 
