@@ -40,7 +40,7 @@ Execute a mouse double click action on a target. To define a double-click action
 
 ## Type
 
-Type a string in a target. To define a type action, write the word `type` in a text box. In the same text box, write the string that should be typed after the word *type*. Then, draw a rectangle around the input target. Another way to specify what string to type is to write it in the target rectangle, like the third example below.
+Type a string in a target. To define a type action, write the word `type` in a text box. In the same text box, write the string that should be typed after the word *type*. Then, draw a rectangle around the input target. Another way to specify what string to type is to write it in another text box, like the third example below.
 
 <img src="/img/type1.jpg" class="one-third img-polaroid">
 <img src="/img/type2.jpg" class="one-third img-polaroid">
@@ -129,7 +129,7 @@ Check if a target exists. If the target *cannot* be found, slides execution is a
 <img src="/img/exist2.jpg" class="one-third img-polaroid">
 <img src="/img/exist3.jpg" class="one-third img-polaroid">
 
----
+---385002331272
 	
 ## Not Exist
 

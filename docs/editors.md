@@ -64,7 +64,7 @@ If you wish to edit the slides offline, you can use Microsoft Powerpoint.
 6. Execute your slides from the command line. Use the .pptx file name as the argument.
 
 {% highlight bash %}
-$ {{site.executable}} execute helloworld.pptx 
+$ {{site.slides.executable}} execute helloworld.pptx 
 {% endhighlight %}
 
 

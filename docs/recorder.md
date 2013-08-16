@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Recorder
-prev_section: parameters
+prev_section: controls
 next_section: cmd
 permalink: /docs/recorder/
 ---
@@ -11,7 +11,7 @@ Sikuli Slides Recorder is a utility to help you quickly generate drafts of slide
 To start the recorder, run the following command in a terminal:
 
 {% highlight bash %}
-$ {{site.executable}} record
+$ {{site.slides.executable}} record
 {% endhighlight %}
 
 Then, you will see these message:
@@ -41,11 +41,11 @@ There are some aspects of the recorder's behaviors you can control.
 By default, slides are written to a file in the same directory where you start the recorder. The file is named using the current time, such as `2013-08-12-06-33-53.pptx`. You can specify a different file location using the `output` flag.
 
 {% highlight bash %}
-$ {{site.executable}} record -output myfile.pptx
+$ {{site.slides.executable}} record -output myfile.pptx
 {% endhighlight %}
 
 By default, the whole screen is captured. You can specify a smaller region to record using the `region` flag.
 {% highlight bash %}
-$ {{site.executable}} record -region 100,100,640,480
+$ {{site.slides.executable}} record -region 100,100,640,480
 {% endhighlight %}
 

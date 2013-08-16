@@ -2,7 +2,7 @@
 layout: docs
 title: Parameters
 prev_section: actions
-next_section: recorder
+next_section: controls
 permalink: /docs/parameters/
 ---
 
@@ -26,7 +26,7 @@ The first slide does not use a parameter. It will always display *Hello World*. 
 To execute slides with specific parameter values, run the command like below:
 
 {% highlight bash %}
-$ {{site.executable}} execute -parameters user='John Smith' hellouser.pptx 
+$ {{site.slides.executable}} execute -parameters user='John Smith' hellouser.pptx 
 {% endhighlight %}
 
 This will print the message *Hello John Smith* on the screen.

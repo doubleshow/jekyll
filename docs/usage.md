@@ -24,12 +24,12 @@ There are two methods to open the slides and execute them on your own computer.
 2. Open and execute the slides
 
 {% highlight bash %}
-$ {{site.executable}} execute helloworld.pptx 
+$ {{site.slides.executable}} execute helloworld.pptx 
 {% endhighlight %}
 
 
 **Method 2:** Open and execute from an URL
 
 {% highlight bash %}
-$ {{site.executable}} execute https://docs.google.com/presentation/d/1w48gExh5oLIT0J8xYXR1RxpqTrZTXJC8OR4UXxShTQ8/edit?usp=sharing
+$ {{site.slides.executable}} execute https://docs.google.com/presentation/d/1w48gExh5oLIT0J8xYXR1RxpqTrZTXJC8OR4UXxShTQ8/edit?usp=sharing
 {% endhighlight %}

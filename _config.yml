@@ -2,6 +2,8 @@ pygments: true
 relative_permalinks: false
 gauges_id: 
 permalink: /news/:year/:month/:day/:title
-executable: java -jar sikuli-slides-1.4.0.jar
-executable_download: http://slides-dev.sikuli.org/sikuli-slides-1.4.0.jar
-helloworld_download: http://slides-dev.sikuli.org/helloworld.pptx
+slides:
+    version: 1.4
+    executable: java -jar sikuli-slides-1.4.0.jar
+    executable_download: http://slides-dev.sikuli.org/sikuli-slides-1.4.0.jar
+    helloworld_download: http://slides-dev.sikuli.org/helloworld.pptx

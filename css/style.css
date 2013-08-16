@@ -6,6 +6,8 @@
   -moz-box-sizing: border-box;
 }
 
+
+
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
@@ -667,7 +669,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: rgb(66,139,202);
+  color: #356FA2;
   text-decoration: none;
   transition: all .25s;
    -moz-transition: all .25s;
@@ -775,6 +777,8 @@ td {
   padding: .5em .75em;
 }
 
+
+
 td p {
   margin: 0;
 }
@@ -807,6 +811,40 @@ td p {
 
 td p code {
   font-size: 14px;
+}
+
+td a {
+  color: #A0C5E4;
+}
+
+td .download a {
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  text-shadow: none;
+  transition: all .25s;
+   -moz-transition: all .25s;
+   -webkit-transition: all .25s;	
+
+	background: #fc0;
+	  color: #222;
+	  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
+	  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+}
+
+
+td .download a:hover {
+  background: #252525;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+td .download a:visited {
+	background: #fc0;
+	  color: #222;
+	  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
+	  text-shadow: 0 1px 0 rgba(255,255,255,.3);
 }
 
 code.option, th .option, code.filter, th .filter {

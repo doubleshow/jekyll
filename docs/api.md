@@ -7,6 +7,22 @@ permalink: /docs/api/
 
 Sikuli Slides API allows you to execute Sikuli Slides directly from your own Java programs. 
 
+## Installation
+
+* You can download the standalone jar from the [Download](\download\) page. Simply include this jar in the classpath of your project.
+* Or if you use Maven, you can include the dependency statement below in the `pom.xml` of your project.
+
+{% highlight html %}
+
+<dependency>
+	<groupId>org.sikuli</groupId>
+	<artifactId>sikuli-slides-api</artifactId>
+	<version>{{site.slides.version}}</version>
+</dependency>
+
+{% endhighlight %}
+
+
 
 ## Hello World
 Suppose you have created a slide like below and saved it as [helloworld.pptx](/pptx/helloworld.pptx).
@@ -64,17 +80,18 @@ By default, `Slides.execute` executes all the slides in a given .pptx file. Ofte
 
 1. **Copy&Paste** Use a presentation editor to create a new presentation file. Copy slide 10 to 12 from the original file to this new file. Execute this file instead.
 
-2. **SlideSelector** Create an object that implements the `SlideSelector` interface. Assign this selector object to a `Context` object. Execute the file under this context object.
+2. **Filter** Create an object that implements the `SlideExecutionEventFilter` interface. Assign this selector object to a `Context` object. Execute the file under this context object.
 
 {% highlight java %}
 
 Context context = new Context();
-context.setSlideSelector(new SlideSelector(){
+context.setFilter(new SlideExecutionEventFilter(){
 	@Override
-	public boolean accept(Slide slide) {
+	public boolean accept(SlideExecutionEvent event) {
+		Slide slide = event.getSlide();
 		// accept only slides 10 to 12
 		return slide.getNumber() >= 10 && slide.getNumber() <= 12;
-	}			
+	}
 });
 Slides.execute(new File("20_slides.pptx"), context);
 {% endhighlight %}
