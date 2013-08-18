@@ -49,10 +49,12 @@ permalink: /download/
 * **Linux**: Oracle Java Runtime Environment (JRE) version 1.7.
 
 ### Release Notes
-* Sikuli Slides Java API
-* Recorder.
-* Code Generator.
-* Control tags: `Skip`, `Optional`, `Bookmark`, and `Tag`.
+* [Recorder](/docs/recorder). You can record a sequence of clicks and automatically produce a sequence of slides that can then be executed by Sikuli Slides.
+* [Parameters](/docs/parameters). You can add parameters to actions and provide the values for these parameters at the execution time, for example, using 
+a parameter to control what password to type dynamically.
+* [Control tags](/docs/controls) `Skip`, `Optional`, `Bookmark`, and `Tag`. You can use them to control the flow of execution.
+* [Sikuli Slides Java API](/docs/api). You can integrate Sikuli Slides' features into your own applications or testing frameworks.
+* [Code Generation](/docs/code). You can make slides and have them automatically converted into Java code, which you can then customize further to fit your needs. Other target languages (e.g., python, ruby) will be available in the next release.
 
 ---
 
