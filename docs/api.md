@@ -2,6 +2,7 @@
 layout: docs
 title: API
 prev_section: gui
+next_section: code
 permalink: /docs/api/
 ---
 
@@ -80,14 +81,14 @@ By default, `Slides.execute` executes all the slides in a given .pptx file. Ofte
 
 1. **Copy&Paste** Use a presentation editor to create a new presentation file. Copy slide 10 to 12 from the original file to this new file. Execute this file instead.
 
-2. **Filter** Create an object that implements the `SlideExecutionEventFilter` interface. Assign this selector object to a `Context` object. Execute the file under this context object.
+2. **Filter** Create an object that implements the `ExecutionFilter` interface. Assign this selector object to a `Context` object. Execute the file under this context object.
 
 {% highlight java %}
 
 Context context = new Context();
-context.setFilter(new SlideExecutionEventFilter(){
+context.setExecutionFilter(new ExecutionFilter(){
 	@Override
-	public boolean accept(SlideExecutionEvent event) {
+	public boolean accept(ExecutionEvent event) {
 		Slide slide = event.getSlide();
 		// accept only slides 10 to 12
 		return slide.getNumber() >= 10 && slide.getNumber() <= 12;

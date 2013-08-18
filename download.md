@@ -18,12 +18,12 @@ permalink: /download/
     <tr>
       <td><p>Sikuli Executable Jar</p></td>
 	  <td><p>
-		Run Sikuli Slides' from the command-line or GUI.
+		Run Sikuli Slides as a command-line program
 		</p>
 	   </td>
 	      <td>
-	<a href="/downloads/sikuli-slides-1.4.0.jar" class="download"
-		onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides.1.4.0.jar'])">
+	<a href="/sikuli-slides-1.4.0.jar" class="download"
+		onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides-1.4.0.jar'])">
 		sikuli-slides-1.4.0.jar
 	</a>
 		  </td>	
@@ -34,8 +34,8 @@ permalink: /download/
 		Use Sikuli Slides' functionalities in your own Java projects</p>
 	   </td>
 	      <td>
-			<a href="/downloads/sikuli-slides-1.3.0.jar" class="download"
-			onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides-api.1.4.0.jar'])">
+			<a href="/sikuli-slides-api-1.4.0.jar" class="download"
+			onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides-api-1.4.0.jar'])">
 			sikuli-slides-api-1.4.0.jar
 			</a>
 
@@ -47,6 +47,12 @@ permalink: /download/
 ### Requirements
 * **Windows and Mac OS X**: Java Runtime Environment (JRE) version 1.6 or newer.
 * **Linux**: Oracle Java Runtime Environment (JRE) version 1.7.
+
+### Release Notes
+* Sikuli Slides Java API
+* Recorder.
+* Code Generator.
+* Control tags: `Skip`, `Optional`, `Bookmark`, and `Tag`.
 
 ---
 

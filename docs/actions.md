@@ -112,7 +112,7 @@ Open a web page in the default web browser. To define a browser action, write th
 
 ## Delay
 
-Delay the execution by some amount of time. To define a delay action, write the word `Delay`, `Sleep`, or `Pause` in a text box followed by the amount and time unit. The time unit can be in milliseconds, seconds, minutes, or hours. If no unit is given explicitly, it is default to seconds.
+Delay the execution by some amount of time. To define a delay action, write the word `Delay` or `Sleep` in a text box followed by the amount and time unit. The time unit can be in milliseconds, seconds, minutes, or hours. If no unit is given explicitly, it is default to seconds.
 
 <img src="/img/delay1.jpg" class="one-third img-polaroid">
 <img src="/img/delay2.jpg" class="one-third img-polaroid">
@@ -129,7 +129,7 @@ Check if a target exists. If the target *cannot* be found, slides execution is a
 <img src="/img/exist2.jpg" class="one-third img-polaroid">
 <img src="/img/exist3.jpg" class="one-third img-polaroid">
 
----385002331272
+---
 	
 ## Not Exist
 

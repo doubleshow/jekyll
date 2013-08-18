@@ -57,7 +57,13 @@ Sikuli Slides will keep skipping slides until it finds the first slide with the 
 <img src="/img/bookmark2.jpg" class="whole img-polaroid">
 
 
-
-
 ---
+
+## Pause
+
+A `Pause` tag indicates that the execution should pause at the slide *before* the action on the slide is executed. When paused, a button will appear in the lower-right corner of the screen, like below. 
+
+<img src="/img/pause.png" class="half img-polaroid">
+
+To continue, you need to move the mouse cursor over there. This tag is useful if you want to intervene at some point during the execution, such as entering a password yourself or reading the text on the screen. When you are done, you can let the computer take over the control again, by moving the mouse to continue. For programmers, it is similar to adding a *break point* to a slide to stop execution at that point in order to debug.
 

@@ -73,6 +73,9 @@ There are several command line options that can be set to control the execution 
       <td><p><code>-bookmark</code></p></td>
       <td><p>The bookmark from which to start executing.</p></td>
     </tr>
-
+    <tr>
+      <td><p><code>-log</code></p></td>
+      <td><p>The level of log messages to print to the console. Choices are ALL, TRACE, DEBUG, INFO, WARN, ERROR, OFF (default: INFO).</p></td>
+    </tr>
   </tbody>
 </table>
