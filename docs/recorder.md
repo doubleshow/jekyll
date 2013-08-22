@@ -2,7 +2,7 @@
 layout: docs
 title: Recorder
 prev_section: controls
-next_section: cmd
+next_section: gui
 permalink: /docs/recorder/
 ---
 

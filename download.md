@@ -9,15 +9,41 @@ permalink: /download/
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Usage</th>
+      <th>Description</th>
       <th>Download</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Sikuli Executable Jar</p></td>
-	  <td><p>
+      <td><img src="/img/windows.png" style="float:left"><p><b>Windows Installer</b></p>
+		<p> 		
+		Open Sikuli Slides from the Explorer.
+		</p>
+	   </td>
+	      <td>
+	<a href="/downloads/sikuli-slides_macos_1_4_0.dmg" class="download"
+		onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides_windows-x64_1_4_0.exe'])">
+		sikuli-slides_windows-x64_1_4_0.exe
+	</a><br>
+		  </td>	
+    </tr>	
+    <tr>	   
+      <td><img src="/img/mac.gif" style="float:left"/>
+		<p><b>Mac Installer</b></p>
+	   <p>
+		Open Sikuli Slides from the Finder.
+		</p>
+	   </td>
+	      <td>
+	<a href="/downloads/sikuli-slides_macos_1_4_0.dmg" class="download"
+		onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides_macos_1_4_0.dmg'])">
+		sikuli-slides_macos_1_4_0.dmg
+	</a>
+		  </td>	
+    </tr>	
+    <tr>
+      <td><img src="/img/java.png" style="float:left"/><p><b>Executable Jar</b></p>
+	  <p>
 		Run Sikuli Slides as a command-line program
 		</p>
 	   </td>
@@ -29,8 +55,8 @@ permalink: /download/
 		  </td>	
     </tr>
     <tr>
-      <td><p>Sikuli Slides API</p></td>
-	  <td><p>
+      <td><img src="/img/java.png" style="float:left"/><p><b>API</b></p>
+	  <p>
 		Use Sikuli Slides' functionalities in your own Java projects</p>
 	   </td>
 	      <td>
@@ -49,10 +75,11 @@ permalink: /download/
 * **Linux**: Oracle Java Runtime Environment (JRE) version 1.7.
 
 ### Release Notes
-* [Recorder](/docs/recorder). You can record a sequence of clicks and automatically produce a sequence of slides that can then be executed by Sikuli Slides.
+* [Execute via GUI](/docs/gui). Once you've installed Sikuli Slides on your systems, you can open `.pptx` files the Windows Explorer or the Finder to execute them. Installers are created by ![install4j](/img/install4j.png).
 * [Parameters](/docs/parameters). You can add parameters to actions and provide the values for these parameters at the execution time, for example, using 
 a parameter to control what password to type dynamically.
 * [Control tags](/docs/controls) `Skip`, `Optional`, `Bookmark`, and `Tag`. You can use them to control the flow of execution.
+* [Recorder](/docs/recorder). You can record a sequence of clicks and automatically produce a sequence of slides that can then be executed by Sikuli Slides.
 * [Sikuli Slides Java API](/docs/api). You can integrate Sikuli Slides' features into your own applications or testing frameworks.
 * [Code Generation](/docs/code). You can make slides and have them automatically converted into Java code, which you can then customize further to fit your needs. Other target languages (e.g., python, ruby) will be available in the next release.
 
