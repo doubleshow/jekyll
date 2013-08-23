@@ -21,7 +21,7 @@ permalink: /download/
 		</p>
 	   </td>
 	      <td>
-	<a href="/downloads/sikuli-slides_macos_1_4_0.dmg" class="download"
+	<a href="/downloads/sikuli-slides_windows-x64_1_4_0.exe" class="download"
 		onClick="_gaq.push(['_trackEvent', 'Downloads', 'Download', 'sikuli-slides_windows-x64_1_4_0.exe'])">
 		sikuli-slides_windows-x64_1_4_0.exe
 	</a><br>
