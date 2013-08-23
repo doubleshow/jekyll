@@ -17,7 +17,7 @@ permalink: /download/
     <tr>
       <td><img src="/img/windows.png" style="float:left"><p><b>Windows Installer</b></p>
 		<p> 		
-		Open Sikuli Slides from the Explorer.
+		Click and execute <code>pptx</code> slides from the Explorer.
 		</p>
 	   </td>
 	      <td>
@@ -31,7 +31,7 @@ permalink: /download/
       <td><img src="/img/mac.gif" style="float:left"/>
 		<p><b>Mac Installer</b></p>
 	   <p>
-		Open Sikuli Slides from the Finder.
+		Click and execute <code>pptx</code> slides from the Finder.
 		</p>
 	   </td>
 	      <td>
