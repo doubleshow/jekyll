@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Generating Code
-prev_section: api
+prev_section: jruby
 permalink: /docs/code/
 ---
 

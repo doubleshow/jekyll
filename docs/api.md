@@ -2,7 +2,7 @@
 layout: docs
 title: API
 prev_section: gui
-next_section: code
+next_section: jruby
 permalink: /docs/api/
 ---
 
