@@ -35,7 +35,7 @@ Sikuli Slides can understand slides made by Microsoft Powerpoint or Google Prese
 7. Execute your slides from the command line. Use the "Link to Share" URL as the argument.
 
 {% highlight bash %}
-$ {{site.executable}} execute https://docs.google.com/presentation/d/1bODdu4SOD49Z_i9Sq7qJpwmxbnnMx6ULvgNc3wQGYfw/edit?usp=sharing
+$ {{site.slides.executable}} execute https://docs.google.com/presentation/d/1bODdu4SOD49Z_i9Sq7qJpwmxbnnMx6ULvgNc3wQGYfw/edit?usp=sharing
 {% endhighlight %}
 
 
